@@ -425,10 +425,12 @@ section {
 .newsletter {
     padding: 6rem 2rem;
     text-align: center;
-    background: url(../assets/happy-woman-travel-by-traditional-260nw-1170032434.webp) center/cover no-repeat;
-    background-position: center;
+    background: url(../assets/featured-image-how-rent-tuktuk-sri-lanka.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; /* This will center the background image */
 }
+
 
 .newsletter h3 {
     color: #eee;
@@ -481,10 +483,7 @@ section {
 }
 
 .contact .row .map{
-  
     flex: 1 152rem;
-   
-   
     padding: 1rem;
     margin-left: 5rem;
     border-radius: .5rem;
@@ -621,6 +620,12 @@ section {
         margin: 2rem;
         font-size: 2rem;
     }
+    .contact .row .map{
+        width: 75vw;
+        margin-left: 4rem;
+        margin-top: 2rem;
+    }
+   
 }
 
 
@@ -636,5 +641,8 @@ section {
     heading {
         font-size: 3rem;
     }
+    
+
+
 
 }
